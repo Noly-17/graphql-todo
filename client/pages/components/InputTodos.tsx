@@ -41,7 +41,7 @@ const InputTodos: React.FC = () => {
         onFocus={handleFocus}
         onBlur={handleBlur}
         placeholder="Write a task"
-        h={isFocused ? "250px" : "50px"}
+        h={isFocused ? "230px" : "50px"}
         transition="height 0.3s ease-in-out"
         resize="none"
         focusBorderColor="transparent"

@@ -33,12 +33,13 @@ const Todos = (): JSX.Element => {
   }, [data]);
 
   return (
-    <List h="600px" w="100%" overflowY="auto">
+    <List h="470px" w="100%" overflowY="auto">
       {!loading &&
         todos.map((todo) => (
           <Box
             borderRadius="lg"
             p="4"
+            m="4"
             bg="#FFFFFF"
             key={todo.id}
             mt={5}
